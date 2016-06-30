@@ -1,3 +1,7 @@
 <h1>
   {{title}}
 </h1>
+<div *ngFor="let toDoItem of toDoItems">
+  <to-do-item [title]="toDoItem.title" [description]="toDoItem.description" [completed]="toDoItem.completed"></to-do-item>
+  <br>
+</div>
