@@ -1,0 +1,1 @@
+A basic To Do app to try out *Angular2 RC1* using the *angular-cli*
